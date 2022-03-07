@@ -1,0 +1,12 @@
+<ul *ngFor="let employee of employees">
+  <ul *ngIf="selectedEmployeeId == employee.id" style="color: darkblue; background-color: whitesmoke;">
+    <h4>Details of {{employee.name}} </h4>
+    <li>ID: {{employee.id}} </li>
+    <li>Name: {{employee.name}} </li>
+    <li>Age: {{employee.age}} </li>
+    <li>Salary: {{employee.salary | currency}}</li>
+    <li>Email: {{employee.eMail}}</li>
+    <li> Address: {{employee.address}}</li>
+    <br />
+  </ul>
+</ul>

@@ -1,0 +1,14 @@
+[
+   { "id": 1, "name": "Retail", "contact": "Samantha Cooks ","eMail":"s_cooks@gmail.com",
+      "description": "Provision of retail and ancilliary services"},
+   { "id": 2, "name": "Design", "contact": "Kamichael Nooks ", "eMail":"k_nooks@gmail.com",
+      "description": "Design of cutting edge mobile devices"},
+   { "id": 3, "name": "Operations", "contact": "Evelyn Chapman ", "eMail":"e_chapman@gmail.com",
+      "description": "Endure smoothing running of the business and confidence of employees"},
+   { "id": 4, "name": "Procurement", "contact": "Halima Candy Anderson", "eMail":"hc_anderson@gmail.com",
+      "description": "Engage suppliers and ensure top quality raw materials and services"},
+   { "id": 5, "name": "Software Development", "contact": "Janet Zeta Jones", "eMail":"jz_jones@gmail.com",
+      "description": "Design future proof software products and services"},
+   { "id": 6, "name": "Hardware Division" },
+   { "id": 7, "name": "Marketing" }
+ ]

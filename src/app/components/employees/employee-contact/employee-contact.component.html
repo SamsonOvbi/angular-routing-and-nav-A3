@@ -1,0 +1,9 @@
+
+<ul *ngFor="let employee of employees">
+  <ul *ngIf="selectedEmployeeId == employee.id" style="color: darkblue; background-color: whitesmoke;">
+    <h4>Contact details of {{employee.name}} </h4>
+    <li>Email: {{employee.eMail}}</li>
+    <li> Address: {{employee.address}}</li>
+    <br />
+  </ul>
+</ul>

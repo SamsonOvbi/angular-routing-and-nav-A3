@@ -1,0 +1,11 @@
+<button (click)="showPrivacy()">Privacy Policy </button> &nbsp; &nbsp;
+<button (click)="showTerms()">Terms and Conditions</button>
+<br /> 
+<router-outlet></router-outlet>
+
+<hr />
+
+<br />
+
+<!-- // back button - method to handle optional parameters and show current clicked legal highlighted -->
+<button (click)="goToLegals()" class="button-sub">Back</button>

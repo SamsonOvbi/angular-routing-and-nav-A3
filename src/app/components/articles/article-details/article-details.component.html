@@ -1,0 +1,29 @@
+<h3>Selected Article ID : {{ selectedArticleId }} </h3>
+
+<h2>Article Detail</h2>
+<ul *ngFor="let article of articles">
+    <ul *ngIf="selectedArticleId == article.id" style="color: darkblue; background-color: whitesmoke;">
+        <li>ID: {{article.id}} | Name: {{article.name}} | Author: {{article.author}} | 
+            Publisher: {{article.publisher}} | Website: {{article.website}}
+            Contact Email: {{article.eMail}} | Article Type: {{article.type}}
+        </li>
+    </ul>
+</ul>
+<br />
+<a (click)="goPrevious()" class="link-sub">Previous</a> &nbsp; &nbsp;
+<a (click)="goNext()" class="link-sub">Next</a>
+<br /> <br /> <hr />
+<button (click)="showOverview()">Article Details </button> &nbsp; &nbsp;
+<button (click)="showContact()">Contact</button>
+<br />
+<router-outlet></router-outlet>
+
+<br /> 
+ 
+<hr />
+
+<!-- // back button - method to handle optional parameters and show current clicked article highlighted -->
+<button (click)="goToArticles()" class="button-sub">
+    <strong>Back!</strong>
+</button>
+

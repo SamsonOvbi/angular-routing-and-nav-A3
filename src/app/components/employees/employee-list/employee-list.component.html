@@ -1,0 +1,18 @@
+
+<div>
+  <h3>Employee list:</h3>
+
+  <ul class="items">
+    Click on an employee to see details:
+    <!-- on link click call function/method to navigate -->
+    <li *ngFor="let employee of employees" (click)="onLinkSelect(employee)" 
+      [class.selected]="isSelectedRouteMatchOptionalParam(employee)">
+
+      <span class="badge">{{employee.id}}</span>
+      <span class="description">{{employee.name}}</span>
+    </li>
+  </ul>
+
+</div>
+
+<router-outlet></router-outlet>

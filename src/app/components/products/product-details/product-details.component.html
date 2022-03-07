@@ -1,0 +1,27 @@
+<h3>Selected Product ID : {{ selectedProductId }} </h3>
+
+<h2>Product Detail</h2>
+<ul *ngFor="let product of products">
+    <ul *ngIf="selectedProductId == product.id" style="color: darkblue; background-color: whitesmoke;">
+        <li>Name: {{product.name}} | Age: {{product.age}} | Salary: {{product.salary | currency}} |
+            Email: {{product.eMail}} | Address: {{product.address}}
+        </li>
+    </ul>
+</ul>
+<br /> 
+<a (click)="goPrevious()" class="link-sub">Previous</a> &nbsp; &nbsp;
+<a (click)="goNext()" class="link-sub">Next</a>
+<br /> <br /> <hr />
+<button (click)="showDetails()">Product Details</button> &nbsp; &nbsp;
+<button (click)="showContact()">Contact</button>
+<br />
+<router-outlet></router-outlet>
+
+<br /> 
+ 
+<hr />
+
+<!-- // back button - method to handle optional parameters and show current clicked product highlighted -->
+<button (click)="goToProducts()" class="button-sub">
+    <strong>Back!</strong>
+</button>

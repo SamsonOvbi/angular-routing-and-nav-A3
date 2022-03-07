@@ -1,0 +1,21 @@
+<div class='container-fluid' style="margin-top: 10px;">
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Product list:</h3>
+
+      <ul class="items">
+        Click on a product to see details:
+        <!-- on link click call function/method to navigate -->
+        <li *ngFor="let product of products" (click)="onLinkSelect(product)"
+          [class.selected]="isSelectedRouteMatchOptionalParam(product)">
+          <span class="badge">{{product.id}}</span>
+          <span class="description">{{product.name}}</span>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <app-product-overview></app-product-overview>
+      <app-product-contact></app-product-contact>
+    </div>
+  </div>
+</div>

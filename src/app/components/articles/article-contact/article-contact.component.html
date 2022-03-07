@@ -1,0 +1,10 @@
+
+<ul *ngFor="let article of articles">
+  <ul *ngIf="selectedArticleId == article.id" style="color: darkblue; background-color: whitesmoke;">
+    <h4>Contact details of {{article.name}} </h4>
+    <li>Publisher {{article.publisher}}</li>
+    <li>Website: {{article.website}}</li>
+    <li>Contact Email: {{article.eMail}}</li>
+    <br />
+  </ul>
+</ul>

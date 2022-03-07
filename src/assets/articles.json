@@ -1,0 +1,47 @@
+[ 
+    { 
+       "id":1,
+       "name":"Beauty and the Beast ",
+       "author":"Jeanne-Marie Beaumont ",
+       "publisher":"",
+       "website":" ",
+       "eMail":" ",
+       "type":"literature "
+    },
+    { 
+       "id":2,
+       "name":"Alice in Wonderland ",
+       "author":"Lewis Carrol ",
+       "publisher":"",
+       "website":" ",
+       "eMail":"",
+       "type":"literature "
+    },
+    { 
+       "id":3,
+       "name":"Oliver Twist ",
+       "author":"Charles Dickens ",
+       "publisher":"",
+       "website":" ",
+       "eMail":"",
+       "type":"literature "
+    },
+    { 
+       "id":4,
+       "name":"Pride and Prejudice ",
+       "author":"Jane Austin ",
+       "publisher":"",
+       "website":" ",
+       "eMail":"",
+       "type":"literature "
+    },
+    { 
+       "id":5,
+       "name":"Huckfin ",
+       "author":"Mark Twain ",
+       "publisher":"",
+       "website":" ",
+       "eMail":"",
+       "type":"literature "
+    }
+ ]

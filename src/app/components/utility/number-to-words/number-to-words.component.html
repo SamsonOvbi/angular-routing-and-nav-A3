@@ -1,0 +1,19 @@
+<div align=center>
+  <marquee scrolldelay="50" style="color: darkblue;">
+    <h4>{{dateMsg | date:'M/d/y'}} {{dateMsg | date:'hh:mm:ss'}}</h4>
+  </marquee>
+  <h1 style="color: darkblue;">Number to Text String</h1>
+  <pre>{{message}}</pre>
+</div>
+<table>
+  <tr>
+    <td>Enter a Positive Integer</td>
+    <td><input [(ngModel)]="numInput" name="textInput" type="text"></td>
+  </tr>
+  <tr>
+    <tr>
+      <td colspan="2" align="right">
+        <button (click)="stringPrint(numInput)">Convert </button> 
+      </td>
+  </tr>
+</table>

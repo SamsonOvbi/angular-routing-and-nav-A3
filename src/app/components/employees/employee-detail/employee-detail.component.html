@@ -1,0 +1,27 @@
+<h3>Selected Employee ID : {{ selectedEmployeeId }} </h3>
+
+<h2>Employee Detail</h2>
+<ul *ngFor="let employee of employees">
+    <ul *ngIf="selectedEmployeeId == employee.id" style="color: darkblue; background-color: whitesmoke;">
+        <li>Name: {{employee.name}} | Age: {{employee.age}} | Salary: {{employee.salary | currency}} |
+            Email: {{employee.eMail}} | Address: {{employee.address}}
+        </li>
+    </ul>
+</ul>
+<br /> 
+<a (click)="goPrevious()" class="link-sub">Previous</a> &nbsp; &nbsp;
+<a (click)="goNext()" class="link-sub">Next</a>
+<br /> <br /> <hr />
+<button (click)="showDetails()">Employee Details</button> &nbsp; &nbsp;
+<button (click)="showContact()">Contact</button>
+<br />
+<router-outlet></router-outlet>
+
+<br /> 
+ 
+<hr />
+
+<!-- // back button - method to handle optional parameters and show current clicked employee highlighted -->
+<button (click)="goToEmployees()" class="button-sub">
+    <strong>Back!</strong>
+</button>

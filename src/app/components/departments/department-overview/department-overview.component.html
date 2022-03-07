@@ -1,0 +1,11 @@
+<ul *ngFor="let department of departments">
+  <ul *ngIf="selectedDepartmentId == department.id" style="color: darkblue; background-color: whitesmoke;">
+    <h4>Details of {{department.name}} Department</h4>
+    <li>ID: {{department.id}} </li>
+    <li>Name: {{department.name}}</li>
+    <li>Contact Person: {{department.contact}}</li>
+    <li>Contact Email: {{department.eMail}}</li>
+    <li>Description: {{department.description}}</li>
+    <br />
+  </ul>
+</ul>

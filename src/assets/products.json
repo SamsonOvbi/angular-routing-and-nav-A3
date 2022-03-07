@@ -1,0 +1,45 @@
+
+[
+   {
+      "id": 1,
+      "name": "iPhone 11 Pro Max ",
+      "price": 1099.99,
+      "contactName":"Samantha Cooks ",
+      "eMail":"s_cooks@gmail.com"
+   },
+   {
+      "id": 2,
+      "name": "Galaxy Note10+ 5G ",
+      "price": 1299.99,
+      "contactName":"Kamichael Nooks ",
+      "eMail":"k_nooks@gmail.com"
+   },  
+   {
+      "id": 3,
+      "name": "Galaxy Note10+ ",
+      "price": 1099.99,
+      "contactName":"Evelyn Chapman ",
+      "eMail":"e_chapman@gmail.com"
+   },
+   {
+      "id": 4,
+      "name": "Galaxy S10e ",
+      "price": 749.99,
+      "contactName":"Halima Candy Anderson",
+      "eMail":"hc_anderson@gmail.com"
+   },
+   {
+      "id": 5,
+      "name": "Xiaomi Black Shark 4S Pro ",
+      "price": 649.99,
+      "contactName":"Janet Zeta Jones",
+      "eMail":"jz_jones@gmail.com"
+   },
+   {
+      "id": 6,
+      "name": "iPhone 11 Pro ",
+      "price": 999.99,
+      "contactName":"Samantha Cooks ",
+      "eMail":"s_cooks@gmail.com"
+   }
+]

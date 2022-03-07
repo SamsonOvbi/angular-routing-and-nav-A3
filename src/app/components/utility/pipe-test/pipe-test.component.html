@@ -1,0 +1,17 @@
+<div align='left'>
+    <h3>Uppercase Pipe and Currency Pipe</h3>
+    <b>{{phone | uppercase}} {{price | currency:"USD":true}}</b><br />
+    <h3>Lowercase Pipe and Currency Pipe</h3>
+    <b>{{phone | lowercase}} {{price | currency:"USD":true}}</b><br />
+
+    <h3>Date pipe chained with lowercase pipe</h3>
+    <b>Today's date is {{todaydate | date:'short' | lowercase}}</b><br />
+    <h3>Time pipe</h3>
+    <b>Current time is {{todaydate | date:'longTime'}}</b>
+    <h3>Decimal Pipe</h3>
+    <b>{{ 24123.4567890 | number: '3.2-4' }}</b> // 3 is for main integer, 2 is minimum decimal digits -4 maximum
+    decimal digits
+
+    <h3>Custom Pipe Ngn (Nigerian Naira)</h3>
+    <b>The price of 1 dollar as at 03/05/2022 is {{dollarPrice | ngn }}</b>
+</div>

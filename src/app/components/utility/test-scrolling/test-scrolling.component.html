@@ -1,0 +1,18 @@
+<div align=center>
+  <h1 style="color: darkblue;">Message Scrolling Service</h1>
+  <ul>
+    <!-- <h3>Click button to see Scrolling Text:</h3>
+    <h2><button color="primary" (click)='printText()'>printSentence</button></h2> -->
+  </ul>
+  <pre>{{message}}</pre>
+  <h4>{{dateMsg | date:'d/M/y'}}  {{dateMsg | date:'hh:mm:ss'}}</h4>
+  <marquee scrolldelay="50" style="color: darkblue;">
+    <h4>{{message1}}</h4>
+  </marquee>
+  <marquee scrolldelay="100" style="color: darkgreen;">
+    <h3>{{message2}}</h3>
+  </marquee> 
+  <marquee scrolldelay="150">
+    <pre>{{message3}}</pre>
+  </marquee>
+</div>

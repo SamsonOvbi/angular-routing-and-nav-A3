@@ -1,0 +1,115 @@
+/* You can add global styles to this file, and also import other style files */
+ 
+@import "~bootstrap/dist/css/bootstrap.css"; 
+
+.btn {
+    margin-right: 4px;
+}
+
+
+/* common global generic styles */
+.custom-divider {
+  margin: 30px 0px;
+  border-bottom:2px dashed gray;
+}
+
+h1,h2,h3 {
+  text-transform: uppercase;
+  /* text-transform: capitalize; */
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 2px;
+  background-color: rgb(238, 135, 212);
+  /*color: rgb(66, 26, 212);*/
+}
+
+li {
+  margin: 10px 0px;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: teal;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: lightcyan;
+}
+
+.button-sub {
+  background-color: rgba(0, 128, 128, 0.6);
+  color: white;
+}
+
+/* route and navigation - links */
+nav a {
+  padding:10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eeeeee;
+  border-radius: 4px;
+}
+
+nav a:visited, a:link, a {
+  color:#607D8B;
+}
+
+nav a:hover {
+  color:#039be5;
+  background-color: #CFD8DC;
+}
+
+nav a.active {
+  color:#039be5;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* route and navigation - list badge */
+.items {
+  width: 280px;
+}
+
+.items li, .link-sub {
+  width: 200px;
+  cursor: pointer;
+  width: 300px;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  background-color: #eeeeee;
+  border-radius: 4px;
+}
+
+.badge {
+  background: rgb(40, 216, 216);
+  padding: 10px;
+  margin-right: 5px;
+  position: relative;
+  left: -10px;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.description:hover {
+  background: gray;
+  padding: 10px;
+}
+
+/* optional parameter - show highlighted */
+.items li.selected {
+  color:#045c88;
+  background-color: #CFD8DC;
+}
+

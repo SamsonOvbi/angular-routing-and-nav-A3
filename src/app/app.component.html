@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1 style="text-align:center;">{{ appTitle }}</h1>
+
+<!-- add buttons/links to navigate pages or routings -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <ul class="navbar-nav mr-auto">
+      <a routerLink="/home" routerLinkActive="active" routerLinkActiveOptions="{exact:true}">Home</a> &nbsp;
+      <a routerLink="/departments" routerLinkActive="active" routerLinkActiveOptions="{exact:true}">Departments</a> &nbsp;
+      <a routerLink="/employees" routerLinkActive="active" routerLinkActiveOptions="{exact:true}">Employees</a> &nbsp;
+      <a routerLink="/products" routerLinkActive="active" routerLinkActiveOptions="{exact:true}">Products</a> &nbsp;
+      <a routerLink="/articles" routerLinkActive="active" routerLinkActiveOptions="{exact:true}">Articles</a> &nbsp;
+      <a routerLink="/shopping" routerLinkActive="active" routerLinkActiveOptions="{exact:true}">Shopping</a> &nbsp;
+      <a routerLink="/legal" routerLinkActive="active" routerLinkActiveOptions="{exact:true}">Legal</a> &nbsp;
+      <a routerLink="/utility" routerLinkActive="active" routerLinkActiveOptions="{exact:true}">Utility</a> &nbsp;
+      <a routerLink="/check" routerLinkActive="active" routerLinkActiveOptions="{exact:true}">Check</a>
+    </ul>
+</nav>
+
+<hr />
+<!-- ng new routing-demo-app --routing  - default include router-outlet in app.component.html. routed views goes here -->
+<router-outlet></router-outlet>

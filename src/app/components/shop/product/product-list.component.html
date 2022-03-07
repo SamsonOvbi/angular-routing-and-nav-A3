@@ -1,0 +1,14 @@
+
+<div class="card">
+  <div class="card-header">Products</div>
+  <div class="card-body">
+    <div *ngFor="let product of products">
+      <div class="card">
+        <h5 class="card-title">{{ product.productName }} | <small>Price: {{ product.productPrice | currency}}</small></h5>
+        <a align='right'>
+          <button  type="button" class="btn btn-info btn-sm" (click)="addToView(product)">Add to View </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

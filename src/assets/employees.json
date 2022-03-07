@@ -1,0 +1,42 @@
+[ 
+    { 
+       "id":1,
+       "name":"Samantha Cooks ",
+       "age":30,
+       "salary":23000,
+       "eMail":"s_cooks@gmail.com",
+       "address":"7 Wayne Street, New Jessy"
+    },
+    { 
+       "id":2,
+       "name":"Kamichael Nooks ",
+       "age":99,
+       "salary":34000,
+       "eMail":"k_nooks@gmail.com",
+       "address":"12 Montana Road, Sydney"
+    },
+    { 
+       "id":3,
+       "name":"Evelyn Chapman ",
+       "age":993333,
+       "salary":20000,
+       "eMail":"e_chapman@gmail.com",
+       "address":"9 Awolowo Road, Ikoyi"
+    },
+    { 
+       "id":4,
+       "name":"Halima Candy Anderson",
+       "age":23,
+       "salary":43000,
+       "eMail":"hc_anderson@gmail.com",
+       "address":"34 Ahmadu Bello Way, Kano"
+    },
+    { 
+       "id":5,
+       "name":"Janet Zeta Jones",
+       "age":21,
+       "salary":18000,
+       "eMail":"jz_jones@gmail.com",
+       "address":"112 ikwerre Road, Port Harcourt"
+    }
+ ]

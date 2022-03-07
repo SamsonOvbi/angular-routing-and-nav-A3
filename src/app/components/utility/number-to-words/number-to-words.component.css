@@ -1,0 +1,13 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+pre {
+    color: red;
+    font-size: 24px;
+    font-family: "Consolas",monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    width: 99%;
+}

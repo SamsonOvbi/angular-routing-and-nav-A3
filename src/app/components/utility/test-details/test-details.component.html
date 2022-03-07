@@ -1,0 +1,25 @@
+
+<nav>
+    <a>
+    <button (click)="showAnimation()">Animation </button> 
+    </a>
+    <a>
+        <button (click)="showPipes()">Pipes</button>
+    </a>
+    <a>
+        <button (click)="showScroll()">Scroll </button>
+    </a>
+    <a>
+        <button (click)="showNumberToWords()">Number to Words</button>
+    </a>
+    
+</nav>
+<br /> 
+<router-outlet></router-outlet>
+
+<hr />
+
+<br />
+
+<!-- // back button - method to handle optional parameters and show current clicked test highlighted -->
+<button (click)="goToTests()" class="button-sub">Back</button>

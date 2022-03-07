@@ -1,0 +1,14 @@
+
+<ul *ngFor="let product of products">
+  <ul *ngIf="selectedProductId == product.id" style="color: darkblue; background-color: whitesmoke;">
+    <h4>Details of {{product.name}} </h4>
+    <li>ID: {{product.id}} </li>
+    <li>Name: {{product.name}} </li>
+    <li>Price: {{product.price | currency}}</li>
+    <li>Contact Name: {{product.contactName}}</li>
+    <li>Contact Email: {{product.eMail}}</li>
+    <br />
+  </ul>
+</ul>
+
+<router-outlet></router-outlet>
